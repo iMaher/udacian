@@ -8,3 +8,5 @@ class Udacian:
 
     def print_udacian(self):
         print(self.name + " " + self.city + " " + self.enrollment + " " + self.nanodegree + " " + self.status)
+user = Udacian("Maher","Dammam","!?","Full Stack","active")
+user.print_udacian()
